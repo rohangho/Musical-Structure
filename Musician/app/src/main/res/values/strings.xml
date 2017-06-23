@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Musician</string>
+
+    <string name="music">Tracks</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+
+    <string name="nowplaying">Nowplaying</string>
+    <string name="buymusic">Online Store</string>
+
+    <string name="advertisement">Advertise</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.android.musician.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/track"
+        style="@style/CategoryStyle"
+        android:background="@color/music"
+        android:text="@string/music"
+        />
+
+    <TextView
+        android:id="@+id/album"
+        style="@style/CategoryStyle"
+        android:background="@color/album"
+        android:text="@string/album" />
+
+    <TextView
+        android:id="@+id/artist"
+        style="@style/CategoryStyle"
+        android:background="@color/artist"
+        android:text="@string/artist" />
+
+    <TextView
+        android:id="@+id/nowplaying"
+        style="@style/CategoryStyle"
+        android:background="@color/nowplaying"
+        android:text="@string/nowplaying" />
+
+    <TextView
+        android:id="@+id/store"
+        style="@style/CategoryStyle"
+        android:background="@color/buymusic"
+        android:text="@string/buymusic" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advertisement"/>
+
+
+
+
+</LinearLayout>
