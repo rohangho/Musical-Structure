@@ -18,16 +18,32 @@
         </activity>
         <activity
             android:name=".Music"
-            android:label="Tracks" />
+            android:label="Tracks"
+            android:parentActivityName=".MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
         <activity
             android:name=".Album"
-            android:label="Albums" />
+            android:label="Albums"
+            android:parentActivityName=".MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
         <activity
             android:name=".Artist"
-            android:label="Artists" />
+            android:label="Artists"
+            android:parentActivityName=".MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
         <activity
             android:name=".Online"
-            android:label="Store" />
+            android:label="Store"
+            android:parentActivityName=".MainActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
         <activity android:name=".Detail" android:label="Detail"></activity>
     </application>
 
