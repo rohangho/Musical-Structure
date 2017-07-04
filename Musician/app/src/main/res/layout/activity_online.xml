@@ -4,14 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.musician.Online">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="It connect to the online store from where we can buy songs "/>
+        android:text="It connect to the online store from where we can buy songs .We can use google pay api here! Bluesnap api can also be used "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Store"/>
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Now Playing"
-        android:id="@+id/song"/>
+        android:id="@+id/online"/>
+
 </LinearLayout>

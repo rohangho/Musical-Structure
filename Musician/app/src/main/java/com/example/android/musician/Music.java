@@ -16,12 +16,12 @@ public class Music extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_music);
 
-        Button a=(Button)findViewById(R.id.song);
-        a.setOnClickListener(new View.OnClickListener(){
+        Button songbutton=(Button)findViewById(R.id.song);
+        songbutton.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View view){
-                Intent numbersintent = new Intent(Music.this,Detail.class);
-                startActivity(numbersintent);
+                Intent numbers = new Intent(Music.this,Detail.class);
+                startActivity(numbers);
             }
         });
     }

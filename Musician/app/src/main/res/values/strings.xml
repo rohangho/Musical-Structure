@@ -8,6 +8,7 @@
     <string name="nowplaying">Nowplaying</string>
     <string name="buymusic">Online Store</string>
 
+    <string name="mainscreen">This is a music player demo app </string>
     <string name="advertisement">Advertise</string>
 
 </resources>
